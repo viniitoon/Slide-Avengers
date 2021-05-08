@@ -1,0 +1,14 @@
+.img-slide:hover .img {
+    transform: skew(0);
+}
+
+.img:hover {
+    flex: 5;
+}
+
+.img:hover p {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #FFF;
+    transform: rotate(0deg);
+}

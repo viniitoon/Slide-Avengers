@@ -1,0 +1,32 @@
+.img1 {
+    background-image: url(iron\ man.jpg);
+}
+
+.img2 {
+    background-image: url(capitao.jpg);
+}
+
+.img3 {
+    background-image: url(dr.jpg);
+}
+
+.img4 {
+    background-image: url(thor.jpg);
+}
+
+.img5 {
+    background-image: url(peter.jpg);
+}
+
+.img p {
+    position: absolute;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}

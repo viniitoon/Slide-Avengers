@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.img-slide {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+}
+
+.img {
+    flex: 1;
+    height: 110%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
